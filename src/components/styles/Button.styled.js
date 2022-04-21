@@ -9,6 +9,7 @@ export const Button = styled.button`
     box-shadow:0 0 10px rgba(0, 0, 0, 0.15);
     transition:all 0.3s ease-in-out;
     font-weight:700;
+    color:${({ color }) => color || "#fff"};
 
     &:hover{
         opacity: 0.9;

@@ -9,6 +9,7 @@ export const HeaderBackground = styled.div`
 
 
       h1{
+            margin-top: 0;
             color:#fff;
             font-weight:500;
             width: 500px;
