@@ -6,8 +6,6 @@ export const FeaturesContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 62%, rgba(144,70,252,0.33239233193277307) 100%);
 `
 
 export const FeaturesContent = styled.div`
@@ -54,9 +52,16 @@ ul{
     display: grid;
     grid-template-columns:repeat(1, 1fr);
 
+
     li{
         margin: 0;
         font-size:1rem;
+        color:rgba(0,0,0,0.6);
+
+        h3{
+        font-weight:600;
+        color:#000;
+        }
     }
 
     i{
