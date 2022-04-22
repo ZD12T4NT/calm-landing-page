@@ -5,33 +5,64 @@ export const CarouselBackground = styled.div`
   background: linear-gradient(180deg, rgba(255,255,255,1) 16%, rgba(144,70,252,0.17552958683473385) 100%);
 `
 
-export const Carousel = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow:hidden;
-    
+
+
+export const SliderContainer = styled.div`
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+
+  .column{
+    width: 400px;
+  }
+
+  img{
+    width: 250px;
+  }
+
+ 
+
+  
+ 
+
+  .right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+ 
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08); 
+}
+
+
 `
 
-export const CarouselItems = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
-`
 
-export const Arrow = styled.div`
-     background: rgb(238,174,202);
-     background: linear-gradient(112deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-       font-size:1.2em;
-       color:#fff;
-       padding: 10px ;
-       border-radius:50%;
-       cursor: pointer;
-       width: 50px;
-
-       display: flex;
-       justify-content: center;
-       align-items: center;
-     
-`
