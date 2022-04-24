@@ -10,6 +10,7 @@ export const Button = styled.button`
     transition:all 0.3s ease-in-out;
     font-weight:700;
     color:${({ color }) => color || "#fff"};
+    
 
     &:hover{
         opacity: 0.9;

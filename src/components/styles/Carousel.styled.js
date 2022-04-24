@@ -21,22 +21,20 @@ export const SliderContainer = styled.div`
 
   img{
     width: 250px;
+    border-radius:30px;
+    margin-right:5rem;
   }
 
  
-
-  
- 
-
   .right-arrow {
   position: absolute;
   top: 50%;
   right: 32px;
   font-size: 3rem;
-  color: #000;
   z-index: 10;
   cursor: pointer;
   user-select: none;
+  color: #EEAECA;
 }
 
 .left-arrow {
@@ -44,10 +42,10 @@ export const SliderContainer = styled.div`
   top: 50%;
   left: 32px;
   font-size: 3rem;
-  color: #000;
   z-index: 10;
   cursor: pointer;
   user-select: none;
+  color: #EEAECA;
 }
 
 .slide {

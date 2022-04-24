@@ -1,7 +1,7 @@
 const content = [
     {
         id:1,
-        image:"./images/calm-moon-removebg-preview.png",
+        image:"./images/buddha2.jpg",
         title:"Drift off with sleep Storues narrated by iconic voices",
         name:"Sienna the Sleepy Sloth",
         body:"Join bestselling author and beloved comedian David Walliams for a sleep adventure through an enchanting rainforest",
