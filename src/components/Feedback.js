@@ -12,17 +12,17 @@ export const Feedback = () => {
                 <div>
                     <span>september 2019</span>
                     <img src="./images/wired-removebg-preview.png" alt="" />
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio necessitatibus explicabo rerum doloremque ipsam? Id quibusdam vitae ipsa praesentium hic!</p>
+                    <p>"Calm is an app with meditations for every possible scenario. There are meditations for walking, ones for acute anxiety, ones to help you sleep, ones to help you concentrate."</p>
                 </div>
                 <div>
                     <span>september 2019</span>
                     <img src="./images/la_times-removebg-preview.png" alt="" />
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio necessitatibus explicabo rerum doloremque ipsam? Id quibusdam vitae ipsa praesentium hic!</p>
+                    <p>"Today, the 'sleep' tab on Calm features exclusive hour long compositions from alt-rock instrumental stars Moby and Sigur Rós, among soporific New Age-y playlists like 'Chasing Wonder,' 'Healing Piano' and 'Sleep Like a Baby.'"</p>
                 </div>
                 <div>
                     <span>september 2019</span>
                     <img src="./images/refine-removebg-preview.png" alt="" />
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio necessitatibus explicabo rerum doloremque ipsam? Id quibusdam vitae ipsa praesentium hic!</p>
+                    <p>"The aptly names Calm app is a firm faviourite in the Refinery29 offices - it gives you guided meditations, calming music and gentle stretching exercises to help you center yourself and stop your brain whirring so much."</p>
                 </div>
          </FeedBackContent>
          <div className="center">

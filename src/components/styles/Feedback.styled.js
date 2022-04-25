@@ -4,7 +4,7 @@ export const FeedBackContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 
     h1{
         display: flex;
@@ -15,6 +15,7 @@ export const FeedBackContainer = styled.div`
     .center{
         display: flex;
         justify-content: center;
+        margin-bottom:2rem;
     }
 
     
@@ -26,6 +27,10 @@ export const FeedBackContent = styled.div`
     align-items: center;
     margin:6rem 0;
 
+    div{
+        margin:2rem 0;
+    }
+
     span{
         color:#C8CFF7;
     }
@@ -34,8 +39,17 @@ export const FeedBackContent = styled.div`
         width: 260px;
         height: 60px;
         display: block;
-
     }
+
+    @media only screen and (max-width:${({ theme }) => theme.mobile}){  
+        flex-direction:column;
+        text-align: center;
+
+        img{
+            display: flex;
+            width: 100%;
+        }
+}
 
 
     

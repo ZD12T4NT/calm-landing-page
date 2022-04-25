@@ -16,12 +16,27 @@ export const HeaderBackground = styled.div`
             font-size:3.3rem;
         }
 
+       
+
         p{
             color:#fff;
             font-size:1.5rem;
             line-height:1.6;
-
          }
+
+         @media only screen and (max-width:${({ theme }) => theme.mobile}){
+             
+        
+        h1{
+            font-size:2.6rem;
+            margin-top:7rem;
+
+        }
+
+        P{
+            font-size:1.2rem;
+        }
+    }
 
 
 `
@@ -41,4 +56,6 @@ export const Logo = styled.img`
 export const Image = styled.img`
     width:1200px;    
     transform:translate(10%, -3%);
+
+   
 `

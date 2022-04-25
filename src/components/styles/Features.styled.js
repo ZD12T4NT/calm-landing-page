@@ -108,4 +108,10 @@ ul{
         width: 320px;
         margin-right:2.5rem;
     }
+
+    @media only screen and (max-width:${({ theme }) => theme.mobile}){  
+        img{
+            display:none;
+        }
+}
 `

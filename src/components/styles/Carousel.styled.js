@@ -25,6 +25,19 @@ export const SliderContainer = styled.div`
     margin-right:5rem;
   }
 
+  @media only screen and (max-width:${({ theme }) => theme.mobile}){  
+
+      text-align:center;
+
+        img{
+          display: none;
+        }
+
+        .column{
+    width: 300px;
+  }
+}
+
  
   .right-arrow {
   position: absolute;

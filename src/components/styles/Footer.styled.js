@@ -12,11 +12,18 @@ export const FooterContainer = styled.div`
         justify-content: center;
         align-items: center;
 
+
         h3{
             font-size:15px;
             font-weight:500;
             color:#89898A;
         }
+    }
+
+    @media only screen and (max-width:${({ theme }) => theme.mobile}){  
+        flex-direction:column;
+        text-align: center;
+        height: 100%;
     }
 `
 
@@ -26,6 +33,11 @@ export const FooterContent = styled.div`
     align-items: flex-start;
     height:100%;
     gap:10rem;
+
+    @media only screen and (max-width:${({ theme }) => theme.mobile}){  
+        gap:0;
+        align-items: center;
+    }
 
     h2{
         font-weight:500;
@@ -52,6 +64,11 @@ export const FooterContent = styled.div`
         }
     }
 
+
+    @media only screen and (max-width:${({ theme }) => theme.mobile}){  
+        flex-direction:column;
+        text-align: center;
+    }
     
 
       
