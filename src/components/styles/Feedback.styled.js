@@ -11,6 +11,13 @@ export const FeedBackContainer = styled.div`
         justify-content: center;
         font-weight:500;
     }
+
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+
+    
 `
 
 export const FeedBackContent = styled.div`
@@ -29,5 +36,7 @@ export const FeedBackContent = styled.div`
         display: block;
 
     }
+
+
     
 `

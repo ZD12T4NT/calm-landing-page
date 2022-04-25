@@ -25,7 +25,9 @@ export const Feedback = () => {
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio necessitatibus explicabo rerum doloremque ipsam? Id quibusdam vitae ipsa praesentium hic!</p>
                 </div>
          </FeedBackContent>
-         <Button bg="#80C138">GET STARTED</Button>
+         <div className="center">
+           <Button bg="#80C138">GET STARTED</Button>
+         </div>
        </Container>
      </FeedBackContainer>
 
